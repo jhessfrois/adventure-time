@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Adventure Time</title>
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="src/imagens/logo.png" alt="Logo Adventure Time" />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="marceline"
+            data-name="Marceline"
+            data-description="Toca baixo muito bem, voa como qualquer vampiro, pode ficar invisível, tem uma força sobre-humana, pode se transformar em diferentes criaturas, usa bem seu baixo-machado e pode se alimentar da cor vermelha."
+          >
+            <img
+              src="src/imagens/card-marceline.jpg"
+              alt="Personagem Marceline"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="bmo"
+            data-name="BMO"
+            data-description="Uma das muitas habilidades de BMO é um botão (localizado sob o D-pad) que envia o alvo em sua Estrutura Mente Principal de VídeoGame, onde eles podem jogar vídeo-games como se estivessem realmente neles."
+          >
+            <img src="src/imagens/card-bmo.jpg" alt="Personagem BMO" />
+          </li>
+
+          <li
+            class="personagem"
+            id="ladyiris"
+            data-name="Lady Íris"
+            data-description="Lady-Íris tem a habilidade de voar, atravessar paredes e transportar-se. Também pode usar seu chifre para mudar a cor de qualquer pessoa ou objeto."
+          >
+            <img
+              src="src/imagens/card-ladyiris.jpg"
+              alt="Personagem Lady Iris"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="jujuba"
+            data-name="Princesa Jujuba"
+            data-description="Princesa Jujuba é muito inteligente e perspicaz. Ela tem uma grande aptidão a ciência e a habilidade de criar e fazer experimentos."
+          >
+            <img
+              src="src/imagens/card-jujuba.jpg"
+              alt="Personagem Princesa Jujuba"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="jake"
+            data-name="Jake"
+            data-description=" Jake tem a capacidade de mudar de forma, o que significa que ele pode controlar o tamanho, forma e dimensões do seu corpo."
+          >
+            <img src="src/imagens/card-jake.jpg" alt="Personagem Jake" />
+          </li>
+
+          <li
+            class="personagem"
+            id="finn"
+            data-name="Finn"
+            data-description="Finn é proficiente em várias formas de combate, incluindo o combate corpo-a-corpo, magia e esgrima. Ele pode saltar muito alto e é excepcionalmente forte e ágil para um menino de sua idade."
+          >
+            <img src="src/imagens/card-finn.jpg" alt="Personagem Ice King" />
+          </li>
+
+          <li
+            class="personagem"
+            id="iceking"
+            data-name="Rei Gelado"
+            data-description=" Como um Mago, Rei Gelado possui potencial para ter esses poderes: Manipulação Material, Manipulação Energética, Manipulação Cósmica, Manipulação do Tempo, Manipulação do Espaço, Criação, Destruição."
+          >
+            <img src="src/imagens/card-iceking.jpg" alt="Personagem Finn" />
+          </li>
+
+          <li
+            class="personagem"
+            id="caroco"
+            data-name="Princesa Caroço"
+            data-description="Os 'caroços' de sua espécie podem ser transmitidos através de mordidas, algo semelhante às regras de lobisomens e zumbis."
+          >
+            <img
+              src="src/imagens/card-caroco.jpg"
+              alt="Personagem Princesa Caroço"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="src/imagens/card-marceline.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
