@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Nesse projeto foi desenvolvido uma página do X-Men. Decidi desenvolver uma com tema de hora de aventura, utilizando todo o meu conhecimento.
+Nesse projeto foi desenvolvido uma página estilo card dos personagens do X-Men com as características de cada um. Decidi desenvolver uma com tema de Hora de Aventura, utilizando todo o meu conhecimento. Página totalmente responsiva.
 
 ## 💻 Github Pages
 [🔗 Clique aqui para acessar](https://jhessfrois.github.io/adventure-time/)
