@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Logo Dev em Dobro" src="https://i.imgur.com/F2651qa.png" width="200px" />
-</p>
+</p> 
 
 <p align="center">
 Aplicação desenvolvida na semana Do Zero ao Programador Contratado do canal Dev em Dobro.
